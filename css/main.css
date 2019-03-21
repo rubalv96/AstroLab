@@ -88,7 +88,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 
-
 /*[ RESTYLE TAG ]
 ///////////////////////////////////////////////////////////
 */
@@ -106,7 +105,7 @@ body, html {
 
 /* ------------------------------------ */
 a {
-	font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
 	font-size: 15px;
 	line-height: 1.7;
@@ -133,7 +132,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
 	font-size: 15px;
 	line-height: 1.7;
@@ -325,7 +324,7 @@ input[type="date" i] {
 
 .table-condensed td, .table-condensed th {
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
 }
 .daterangepicker {
@@ -420,7 +419,7 @@ input[type="date" i] {
 ===========================================================*/
 .select2-selection__rendered {
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
   color: #666666 !important;
   padding-left: 20px !important;
@@ -453,7 +452,7 @@ input[type="date" i] {
 
 .select2-results__options{
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
   color: #666666 !important;
 }
@@ -462,7 +461,7 @@ input[type="date" i] {
 .select2-search--dropdown .select2-search__field {
   border: 1px solid #aaa !important;
   outline: none;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
   font-size: 14px;
   color: #666666;
@@ -573,9 +572,9 @@ input[type="date" i] {
 }
 
 .main_menu > li > a {
-  font-family: Montserrat;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   color: white;
   padding: 15px;
@@ -642,7 +641,7 @@ input[type="date" i] {
 
 .sub_menu li, .sub_menu a {
   padding: 10px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
   font-size: 14px;
   color: #808080;
@@ -1376,7 +1375,7 @@ body {padding-right: 0px !important;}
   background-color: rgba(0,0,0,0.5);
   padding: 3px 15px;
 
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
   font-size: 12px;
   color: white;
@@ -1549,7 +1548,7 @@ body {padding-right: 0px !important;}
 ///////////////////////////////////////////////////////////
 */
 .item-pagination {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;    /* Añado fuente*/
   font-weight: 400;
   font-size: 13px;
   color: #808080;

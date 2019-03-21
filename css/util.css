@@ -2953,7 +2953,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 -----------------------------------------------------------
 */
 .tit1 {
-	font-family: Poppins;
+	font-family: 'Nunito';
 	font-weight: 700;
 	font-size: 90px;
 	line-height: 1.1;
@@ -3057,7 +3057,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 -----------------------------------------------------------
 */
 .txt1 {
-	font-family: Courgette;
+    font-family: 'Quicksand', sans-serif;
 	font-size: 60px;
 	line-height: 1.1;
 	color: white;
@@ -3207,7 +3207,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .txt19 {
-	font-family: Montserrat;
+    font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: #222222;
