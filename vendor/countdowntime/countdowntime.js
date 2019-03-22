@@ -39,7 +39,16 @@
       var timeinterval = setInterval(updateClock, 1000);
     }
 
-    var deadline = new Date(Date.parse(new Date()) + 25 * 24 * 60 * 60 * 1000 + 13 * 60 * 60 * 1000); 
+
+
+    //var deadline = new Date(Date.parse(new Date()) + 25 * 24 * 60 * 60 * 1000 + 13 * 60 * 60 * 1000);
+
+
+    var fechaEvento1=new Date(2019,6,2); // 2 de julio eclipse total de sol
+    var diferenciaMilisegundos1 = fechaEvento1 - new Date();
+
+    var deadline = new Date(Date.parse(new Date()) + diferenciaMilisegundos1);
+
     initializeClock('clockdiv', deadline);
 
 })(jQuery);
