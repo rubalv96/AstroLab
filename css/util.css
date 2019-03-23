@@ -255,7 +255,7 @@
 .p-t-47 {padding-top: 47px;}
 .p-t-48 {padding-top: 48px;}
 .p-t-49 {padding-top: 49px;}
-.p-t-50 {padding-top: 50px;}
+.p-t-50 {padding-top: 15px;}
 .p-t-51 {padding-top: 51px;}
 .p-t-52 {padding-top: 52px;}
 .p-t-53 {padding-top: 53px;}
@@ -2968,7 +2968,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     font-family: 'Cabin';
 	font-size: 30px;
 	line-height: 1.2;
-	color: #d61c22;
+	color: #A18DA5;
 }
 
 .tit3 {
@@ -2976,7 +2976,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
-	color: #222222;
+	color: #322C40;
 	text-transform: uppercase;
 	letter-spacing: 6px;
 }
@@ -3079,7 +3079,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.1;
-	color: #ec1d25;
+	color: #131927;
 	text-transform: uppercase;
 }
 
@@ -3114,7 +3114,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 50px;
-	color: #ec1d25;
+	color: #4D4258;
 	line-height: 1.1;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -3124,7 +3124,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 12px;
-	color: #999999;
+	color: #A18DA5;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -3211,7 +3211,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	color: #222222;
+	color: #322C40;
 	line-height: 1.2;
 	text-transform: uppercase;
 }
@@ -3369,7 +3369,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .color2 {color: #cccccc;}
 .color3 {color: #333333;}
 
-.color0-hov:hover {color: #ec1d25;}
+.color0-hov:hover {color: #322C40;}
+
 
 
 
@@ -3564,10 +3565,10 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 -----------------------------------------------------------
 */
 .bg0 {background-color: #ec1d25;}
-.bg1 {background-color: #222222;}
-.bg2 {background-color: #111111;}
+.bg1 {background-color: #4D4258;}
+.bg2 {background-color: #322C40;}
 
-.bg0-hov:hover {background-color: #ec1d25;}
+.bg0-hov:hover {background-color: #322C40;}
 
 .bg1-overlay {background-color: rgba(0,0,0,0.35);}
 
@@ -3639,6 +3640,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
     -o-transition: all 0.6s;
     -moz-transition: all 0.6s;
     transition: all 0.6s;
+    opacity: 0.8;
 }
 .hov-img-zoom:hover img {
 	-webkit-transform: scale(1.1);

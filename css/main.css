@@ -123,7 +123,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #ec1d25;
+	color: #A18DA5;
 }
 
 /* ------------------------------------ */
@@ -136,7 +136,7 @@ p {
   font-weight: 400;
 	font-size: 15px;
 	line-height: 1.7;
-	color: #666666;
+	color: #322C40;
 	margin: 0px;
 }
 
@@ -280,7 +280,7 @@ iframe {
   height: 40px;
   bottom: 40px;
   right: 40px;
-  background-color: black;
+  background-color: #A18DA5;
   opacity: 0.5;
   justify-content: center;
   align-items: center;
@@ -488,7 +488,7 @@ input[type="date" i] {
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid #ec1d25;
+  border-top: 5px solid #BF9ABA;
 }
 
 .wrap_header {
@@ -585,7 +585,7 @@ input[type="date" i] {
 }
 
 .main_menu > li:hover > a {
-  color: #ec1d25;
+  color: #A18DA5;
   text-decoration: none;
 }
 
@@ -682,8 +682,8 @@ input[type="date" i] {
 }
 
 .btn-show-sidebar:hover {
-  border-top: 2px solid #ec1d25;
-  border-bottom: 2px solid #ec1d25;
+  border-top: 2px solid #A18DA5;
+  border-bottom: 2px solid #A18DA5;
 }
 
 @media (max-width: 1200px) {
@@ -737,7 +737,7 @@ input[type="date" i] {
 .btn-hide-sidebar {
   position: absolute;
   font-size: 20px;
-  color: #111111;
+  color: #A18DA5;
   padding: 10px;
   top: 20px;
   right: 20px;
@@ -834,7 +834,7 @@ input[type="date" i] {
   font-size: 18px;
   color: white;
   position: absolute;
-  background-color: black;
+  background-color: #131927;
   opacity: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -859,7 +859,7 @@ input[type="date" i] {
 .arrow-slick1:hover,
 .arrow-slick2:hover,
 .arrow-slick3:hover {
-  background-color: #ec1d25;
+  background-color: #A18DA5;
 }
 
 .next-slick1,
@@ -930,12 +930,12 @@ input[type="date" i] {
 
 .slick1-dots li button:hover {
     border: 3px solid white;
-    background-color: #d41b22;
+    background-color: #4D4258;
 }
 
 .slick1-dots li.slick-active button {
     border: 3px solid white;
-    background-color: #d41b22;
+    background-color: #4D4258;
 } 
 
 /*[ Caption ]
@@ -971,7 +971,7 @@ input[type="date" i] {
 }
 
 .btn1:hover {
-  background-color: #ec1d25;
+  background-color: #322C40;
   color: white;
 }
 
@@ -1083,13 +1083,13 @@ input[type="date" i] {
 
 
 .slick2-dots li button:hover {
-  border: 1px solid #d41b22;
-  background-color: #d41b22;
+  border: 1px solid #4D4258;
+  background-color: #4D4258;
 }
 
 .slick2-dots li.slick-active button {
-  border: 1px solid #d41b22;
-  background-color: #d41b22;
+  border: 1px solid #4D4258;
+  background-color: #4D4258;
 } 
 
 
@@ -1157,13 +1157,13 @@ input[type="date" i] {
 
 
 .slick3-dots li button:hover {
-  border: 1px solid #d41b22;
-  background-color: #d41b22;
+  border: 1px solid #4D4258;
+  background-color: #4D4258;
 }
 
 .slick3-dots li.slick-active button {
-  border: 1px solid #d41b22;
-  background-color: #d41b22;
+  border: 1px solid #4D4258;
+  background-color: #4D4258;
 } 
 
 
@@ -1194,7 +1194,7 @@ input[type="date" i] {
 
 /* ------------------------------------ */
 .effect1 {
-  background-color: #cf2227;
+  background-color: #4D4258;
   opacity: 0.9;
   position: relative;
 }
