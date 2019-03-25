@@ -732,6 +732,8 @@ input[type="date" i] {
 
 .show-sidebar {
   right: 0px;
+  opacity: 0.8;
+  background-color: #F2C3EC;
 }
 
 .btn-hide-sidebar {
@@ -1624,3 +1626,12 @@ body {padding-right: 0px !important;}
   border-radius: 10px;
   background-color: #ec1d25;
 }
+
+#ImagenLogo{
+    width: 40%;
+    height: auto;
+    margin-left: 112px;
+    margin-right: auto;
+}
+
+
