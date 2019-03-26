@@ -2968,7 +2968,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     font-family: 'Cabin';
 	font-size: 30px;
 	line-height: 1.2;
-	color: #A18DA5;
+	color: #4D4258;
 }
 
 .tit3 {
@@ -3698,7 +3698,11 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .bg1-pattern {
-	background-image: url(../images/icons/pattern1.png);
+    /*background-color: #CFA7C9;*/
+    /*
+	background-image: url(../images/violet_pattern.jpg);
+    */
+    background: radial-gradient(ellipse at center, rgba(242,195,236,1) 0%, rgba(161,141,165,1) 50%, rgba(77,66,88,1) 100%);
   	background-repeat: repeat;
 }
 
