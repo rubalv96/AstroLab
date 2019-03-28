@@ -1634,4 +1634,8 @@ body {padding-right: 0px !important;}
     margin-right: auto;
 }
 
+.video{
+    width: max-content;
+    height: auto;
+}
 
