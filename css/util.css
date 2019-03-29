@@ -3024,6 +3024,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	letter-spacing: 3px;
 }
 
+.tit7b{
+    font-family: Nunito;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #322C40;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
 .tit8 {
 	font-family: Nunito;
 	font-weight: 700;
@@ -3134,6 +3144,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 400;
 	font-size: 15px;
 	color: #555555;
+}
+
+
+.txt9b{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 22px;
+    color: #322C40;
+    text-spacing: 0.5px;
+
 }
 
 .txt10 {

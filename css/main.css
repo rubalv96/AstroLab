@@ -158,11 +158,11 @@ textarea {
 
 textarea:focus, input:focus {
   border-color: transparent !important;
-  box-shadow: 0 0 0px 2px #ec1d25;
-  -moz-box-shadow: 0 0 0px 2px #ec1d25;
-  -webkit-box-shadow: 0 0 0px 2px #ec1d25;
-  -o-box-shadow: 0 0 0px 2px #ec1d25;
-  -ms-box-shadow: 0 0 0px 2px #ec1d25;
+  box-shadow: 0 0 0px 2px #4D4258;
+  -moz-box-shadow: 0 0 0px 2px #4D4258;
+  -webkit-box-shadow: 0 0 0px 2px #4D4258;
+  -o-box-shadow: 0 0 0px 2px #4D4258;
+  -ms-box-shadow: 0 0 0px 2px #4D4258;
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }
@@ -986,7 +986,7 @@ input[type="date" i] {
 }
 
 .btn3:hover {
-  background-color: #ec1d25;
+  background-color: #322C40;
   color: white;
 }
 
