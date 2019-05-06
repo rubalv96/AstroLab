@@ -694,6 +694,7 @@ input[type="date" i] {
 
   .social {padding-right: 0px;}
 
+
   .logo {
     height: 45px;
   }
@@ -731,7 +732,7 @@ input[type="date" i] {
 }
 
 .show-sidebar {
-  right: 0px;
+  left: 0px;
   opacity: 0.8;
   background-color: #F2C3EC;
 }
@@ -1700,7 +1701,19 @@ body {padding-right: 0px !important;}
   bottom:5px;
   right:10px;
 }
+
+.derecha{
+  display: block;
+  position: absolute;
+  top: 65%;
+  left: 0.05%;
+}
 .contenedor-div{
   position:relative;
 }
 
+.centrada{
+  display: block;
+  position: absolute;
+  left: 50%;
+}
