@@ -81,8 +81,12 @@
 							</li>
 
 							<li>
-								<a href="contacto.html">Contacto</a>
+								<a ><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									Contacto
+								</button></a>
 							</li>
+							<!-- Button to Open the Modal -->
+
 
 						</ul>
 					</nav>
@@ -210,14 +214,14 @@
 
 
 	<div class="container">
-		<h3 class="tit7b t-center p-b-62 p-t-105">
+	<!--	<h3 class="tit7b t-center p-b-62 p-t-105">
 			Haznos llegar tu mensaje
-		</h3>
+		</h3>-->
 
-		<form class="wrap-form-reservation size22 m-l-r-auto" action="resultados.html" method="post">
+	<!--	<form class="wrap-form-reservation size22 m-l-r-auto" action="resultados.html" method="post">
 			<div class="row">
 				<div class="col-md-5">
-					<!-- Name -->
+					&lt;!&ndash; Name &ndash;&gt;
 					<span class="txt9b">
 							Nombre
 						</span>
@@ -228,7 +232,7 @@
 				</div>
 
 				<div class="col-md-5">
-					<!-- Email -->
+					&lt;!&ndash; Email &ndash;&gt;
 					<span class="txt9b">
 							Email
 						</span>
@@ -239,7 +243,7 @@
 				</div>
 
 				<div class="col-md-2">
-					<!-- Edad -->
+					&lt;!&ndash; Edad &ndash;&gt;
 					<span class="txt9b">
 							Edad
 						</span>
@@ -255,7 +259,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-5">
-					<!-- Estudios completados -->
+					&lt;!&ndash; Estudios completados &ndash;&gt;
 					<span class="txt9b">
 							Estudios completados
 						</span>
@@ -272,7 +276,7 @@
 				</div>
 
 				<div class="col-md-5">
-					<!-- Estudios completados -->
+					&lt;!&ndash; Estudios completados &ndash;&gt;
 					<span class="txt9b">
 							Tipo de consulta
 						</span>
@@ -286,7 +290,7 @@
 					</div>
 				</div>
 				<div class="col-md-2">
-					<!-- Edad -->
+					&lt;!&ndash; Edad &ndash;&gt;
 					<span class="txt9b">
 							Calificación
 						</span>
@@ -312,7 +316,7 @@
 
 			<div class="row" >
 				<div class="col-12">
-					<!-- Mensaje -->
+					&lt;!&ndash; Mensaje &ndash;&gt;
 					<span class="txt9b">
 							Escribe abajo tu mensaje
 						</span>
@@ -323,7 +327,7 @@
 
 			<div class="row" >
 				<div class="col-6">
-					<!-- Positivo de la web -->
+					&lt;!&ndash; Positivo de la web &ndash;&gt;
 					<span class="txt9b">
 							¿Qué es lo que más te ha gustado de la web?
 						</span>
@@ -332,7 +336,7 @@
 
 
 			<div class="col-6">
-				<!-- Positivo de la web -->
+				&lt;!&ndash; Positivo de la web &ndash;&gt;
 				<span class="txt9b">
 							¿Qué es lo que menos te ha gustado de la web?
 						</span>
@@ -341,13 +345,75 @@
 			</div>
 
 			<div class="wrap-btn-booking flex-c-m m-t-13">
-				<!-- Button1 -->
+				&lt;!&ndash; Button1 &ndash;&gt;
 				<button type="submit" class="btn1 flex-c-m size36 txt3 trans-0-4">
 					Enviar
 				</button>
 			</div>
-		</form>
+		</form>-->
 
+
+
+		<!-- The Modal -->
+		<div class="modal" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form action="resultados.html" method="post">
+
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h1 class="modal-title">
+							Buzón de contacto</h1>
+
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="inputName">Nombre</label>
+							<input type="text" class="form-control" id="inputName" required>
+						</div>
+						<div class="form-group">
+							<label for="inputEmail">Correo electrónico</label>
+							<input type="email" class="form-control" id="inputEmail" required>
+						</div>
+						<div class="form-group">
+							<label for="inputMessage">Mensaje</label>
+							<textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+						</div>
+					</div>
+
+					<!-- Modal footer -->
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-primary btn-block"><i class="fa fa-paper-plane"></i>Envía tu mensaje</button>
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<!--<div class="contact-form">
+			<form action="resultados.html" method="post">
+				<h1>Buzón de contacto</h1>
+				<p class="hint-text">Gracias por visitar nuestra página web. Haznos llegar cualquier tipo de consulta o sugerencia a través de este buzón.</p>
+				<div class="form-group">
+					<label for="inputName">Nombre</label>
+					<input type="text" class="form-control" id="inputName" required>
+				</div>
+				<div class="form-group">
+					<label for="inputEmail">Correo electrónico</label>
+					<input type="email" class="form-control" id="inputEmail" required>
+				</div>
+				<div class="form-group">
+					<label for="inputMessage">Mensaje</label>
+					<textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary btn-block"><i class="fa fa-paper-plane"></i>Envía tu mensaje</button>
+			</form>
+		</div>-->
 
 	</div>
 </section>
