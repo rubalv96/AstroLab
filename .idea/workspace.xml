@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirandoalcielo.html" beforeDir="false" afterPath="$PROJECT_DIR$/mirandoalcielo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tierra.html" beforeDir="false" afterPath="$PROJECT_DIR$/tierra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vialactea.html" beforeDir="false" afterPath="$PROJECT_DIR$/vialactea.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="399">
+              <caret line="143" column="12" lean-forward="true" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -27,7 +30,30 @@
                 <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#14620#14626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vialactea.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="194" column="67" selection-start-line="194" selection-start-column="67" selection-end-line="194" selection-end-column="67" />
+              <folding>
+                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tierra.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="168" column="66" selection-start-line="168" selection-start-column="66" selection-end-line="168" selection-end-column="66" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -36,8 +62,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="1717" selection-start-line="1717" selection-end-line="1717" />
+            <state relative-caret-position="325">
+              <caret line="1732" column="16" selection-start-line="1732" selection-start-column="16" selection-end-line="1732" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mirandoalcielo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="219" column="65" selection-start-line="219" selection-start-column="65" selection-end-line="219" selection-end-column="65" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/util.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1921">
-              <caret line="2435" column="1" selection-start-line="2435" selection-start-column="1" selection-end-line="2435" selection-end-column="1" />
+            <state relative-caret-position="111">
+              <caret line="2960" column="28" selection-start-line="2960" selection-start-column="28" selection-end-line="2960" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -76,7 +114,6 @@
       <find>button</find>
       <find>2 de julio</find>
       <find>p-l-45</find>
-      <find>aside</find>
       <find>fa</find>
       <find>countdo</find>
       <find>menu</find>
@@ -92,6 +129,7 @@
       <find>form</find>
       <find>zoom</find>
       <find>ec1d25</find>
+      <find>aside</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,14 +148,14 @@
         <option value="$PROJECT_DIR$/menu.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/css/util.css" />
-        <option value="$PROJECT_DIR$/vialactea.html" />
-        <option value="$PROJECT_DIR$/tierra.html" />
         <option value="$PROJECT_DIR$/directos.html" />
         <option value="$PROJECT_DIR$/contacto.html" />
         <option value="$PROJECT_DIR$/resultados.html" />
-        <option value="$PROJECT_DIR$/mirandoalcielo.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/vialactea.html" />
+        <option value="$PROJECT_DIR$/tierra.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/mirandoalcielo.html" />
       </list>
     </option>
   </component>
@@ -139,16 +177,6 @@
             <path>
               <item name="astrolab" type="b2602c69:ProjectViewProjectNode" />
               <item name="astrolab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="astrolab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="astrolab" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="astrolab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="astrolab" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +232,8 @@
       <workItem from="1553851471896" duration="9842000" />
       <workItem from="1556047988135" duration="999000" />
       <workItem from="1556266011855" duration="102000" />
-      <workItem from="1557130110658" duration="6389000" />
+      <workItem from="1557130110658" duration="7599000" />
+      <workItem from="1557214916387" duration="1866000" />
     </task>
     <task id="LOCAL-00001" summary="16. Mejora. Flechas para indicar que debes hacer scroll al cambiar de página.">
       <created>1557133272908</created>
@@ -213,11 +242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557133272908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="17. Mejora. Menú desplegable oculto para dispositivos grandes y menú desplegable a la izquierda para dispositivos móviles y tablets.">
+      <created>1557137445016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557137445016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84997000" />
+    <option name="totallyTimeSpent" value="88073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +268,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.27760968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.28214827" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.27760968" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,7 +365,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="16. Mejora. Flechas para indicar que debes hacer scroll al cambiar de página." />
-    <option name="LAST_COMMIT_MESSAGE" value="16. Mejora. Flechas para indicar que debes hacer scroll al cambiar de página." />
+    <MESSAGE value="17. Mejora. Menú desplegable oculto para dispositivos grandes y menú desplegable a la izquierda para dispositivos móviles y tablets." />
+    <option name="LAST_COMMIT_MESSAGE" value="17. Mejora. Menú desplegable oculto para dispositivos grandes y menú desplegable a la izquierda para dispositivos móviles y tablets." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -424,16 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tierra.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="167" column="72" selection-start-line="167" selection-start-column="72" selection-end-line="167" selection-end-column="72" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -473,45 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vialactea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="308" lean-forward="true" selection-start-line="308" selection-end-line="308" />
-          <folding>
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirandoalcielo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <caret line="2435" column="1" selection-start-line="2435" selection-start-column="1" selection-end-line="2435" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="1717" selection-start-line="1717" selection-end-line="1717" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="399">
+          <caret line="143" column="12" lean-forward="true" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -520,7 +512,50 @@
             <element signature="n#style#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14620#14626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/util.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="2960" column="28" selection-start-line="2960" selection-start-column="28" selection-end-line="2960" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tierra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="168" column="66" selection-start-line="168" selection-start-column="66" selection-end-line="168" selection-end-column="66" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirandoalcielo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="219" column="65" selection-start-line="219" selection-start-column="65" selection-end-line="219" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="1732" column="16" selection-start-line="1732" selection-start-column="16" selection-end-line="1732" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vialactea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="194" column="67" selection-start-line="194" selection-start-column="67" selection-end-line="194" selection-end-column="67" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

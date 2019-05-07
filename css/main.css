@@ -1702,7 +1702,7 @@ body {padding-right: 0px !important;}
   right:10px;
 }
 
-.derecha{
+.izquierda{
   display: block;
   position: absolute;
   top: 65%;
@@ -1716,4 +1716,19 @@ body {padding-right: 0px !important;}
   display: block;
   position: absolute;
   left: 50%;
+}
+
+.imagenViaLactea{
+  width: 350px;
+  height: 370px;
+}
+
+.imagenTierra{
+  width: 220px;
+  height: 240px;
+}
+
+.imagenCielo{
+  width: 220px;
+  height: 240px;
 }
