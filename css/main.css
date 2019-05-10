@@ -577,7 +577,7 @@ input[type="date" i] {
   font-size: 16px;
   text-transform: uppercase;
   color: white;
-  padding: 15px;
+  padding: 12px;
 }
 
 .header-fixed .main_menu > li > a {
@@ -1861,7 +1861,9 @@ body {padding-right: 0px !important;}
   display: inline-block;
   margin: 100px auto;
 }
+.trigger-btn-aside{
 
+}
 
 
 .form-control {
@@ -1925,10 +1927,7 @@ body {padding-right: 0px !important;}
 }
 
 .fondoHeader{
-  background: radial-gradient(ellipse at center, rgba(242,195,236,1) 0%, rgba(161,141,165,1) 50%, rgba(77,66,88,1) 100%);
   background: #F2C3EC;
-  background-repeat: repeat;
-
 }
 
 .colorHeader{
@@ -1960,4 +1959,9 @@ body {padding-right: 0px !important;}
   background-image: none;
   border-color: #F2C3EC;
   color: white;
+}
+
+.activo{
+  color: yellow !important;
+  /*#4D4258*/
 }
