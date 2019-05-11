@@ -10,9 +10,20 @@
 <body class="animsition">
 
 <!-- Header -->
-<header>
-    <?php include "templates/header.php"?>
-</header>
+
+    <header>
+        <?php
+        session_start();
+        if(!isset($_SESSION['username'])){
+            include "templates/header.php";
+        }
+        else{
+            include "templates/headerUser.php";
+        }
+        ?>
+
+    </header>
+
 
 <?php include "templates/menu_desplegable.php" ?>
 

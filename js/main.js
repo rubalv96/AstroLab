@@ -192,6 +192,55 @@
         });
     });
 
-    
+
 
 })(jQuery);
+
+(function(){
+    'use strict';
+    var $ = jQuery;
+    $.fn.extend({
+        filterTable: function(){
+            return this.each(function(){
+                $(this).on('keyup', function(e){
+                    $('.filterTable_no_results').remove();
+                    var $this = $(this),
+                        search = $this.val().toLowerCase(),
+                        target = $this.attr('data-filters'),
+                        $target = $(target),
+                        $rows = $target.find('tbody tr');
+
+                    if(search == '') {
+                        $rows.show();
+                    } else {
+                        $rows.each(function(){
+                            var $this = $(this);
+                            $this.text().toLowerCase().indexOf(search) === -1 ? $this.hide() : $this.show();
+                        })
+                        if($target.find('tbody tr:visible').size() === 0) {
+                            var col_count = $target.find('tr').first().find('td').size();
+                            var no_results = $('<tr class="filterTable_no_results"><td colspan="'+col_count+'">No results found</td></tr>')
+                            $target.find('tbody').append(no_results);
+                        }
+                    }
+                });
+            });
+        }
+    });
+    $('[data-action="filter"]').filterTable();
+})(jQuery);
+$(document).ready(function(){
+    $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+
+    $("#myInput2").on("keyup", function() {
+        var value2 = $(this).val().toLowerCase();
+        $("#myTable2 tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value2) > -1)
+        });
+    });
+});

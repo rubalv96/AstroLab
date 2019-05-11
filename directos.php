@@ -1,5 +1,5 @@
 <!-----La página está alojada en http://astrolab.epizy.com------>
-
+<?php include "restringido.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,14 @@
 
 <!-- Header -->
 <header>
-    <?php include "templates/header.php"?>
+    <?php if(!isset($_SESSION['username'])){
+        include "templates/header.php";
+    }
+    else{
+        include "templates/headerUser.php";
+    }
+    ?>
+
 </header>
 
 <!-- Sidebar -->

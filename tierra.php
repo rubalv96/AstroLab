@@ -11,7 +11,16 @@
 
 <!-- Header -->
 <header>
-    <?php include "templates/header.php"?>
+    <?php
+        session_start();
+        if(!isset($_SESSION['username'])){
+        include "templates/header.php";
+    }
+    else{
+        include "templates/headerUser.php";
+    }
+    ?>
+
 </header>
 
 <!-- Sidebar -->
