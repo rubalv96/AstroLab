@@ -49,3 +49,15 @@
     })
     <?php endif; ?>
 </script>
+
+<!--<script>
+
+    $(document).ready(function () {
+        var current_location=window.location.href.split('/');
+        var page;
+        page=current_location[current_location.length - 1];
+        $('.main_menu li a').removeClass('activo');
+        $('.main_menu li a[href*="' + page + '"]').addClass("activo");
+    })
+
+</script>-->
