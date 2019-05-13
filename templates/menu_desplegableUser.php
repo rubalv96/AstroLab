@@ -31,16 +31,16 @@
             <a href="mirandoalcielo.php" class="txt19">Mirando al cielo</a>
         </li>
 
-        <li>
-            <a href="directos.php">Directos al espacio</a>
+        <li class="t-center m-b-33">
+            <a href="directos.php" class="txt19">Directos al espacio</a>
         </li>
 
         <li class="t-center m-b-33">
-            <a  href="#myModal" class="txt-19" data-toggle="modal" data-target="#myModal">
+            <a  href="#myModal" class="txt19" data-toggle="modal" data-target="#myModal">
                 Contacto
             </a>
         </li>
-        <li >
+        <li class="t-center m-b-33" >
             <!-- Button HTML (to Trigger Modal) -->
             <?php if($_SESSION['username'] == "admin"){     ?>
                 <a href="admin.php" ><button type="button" class="btn botonEnviar">
@@ -55,10 +55,10 @@
                         echo $_SESSION['username']; ?>
                     </button></a>
             <?php } ?>
-            <a href="admin.php" ><button type="button" class="btn botonEnviar">
+            <a href="../cerrarSesion.php" ><button type="button" class="btn botonEnviar">
                     <?php
                     echo "Cerrar sesión";
-                    session_destroy(); ?>
+                    ?>
                 </button></a>
 
 

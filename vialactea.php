@@ -25,7 +25,7 @@
     </header>
 
 
-<?php include "templates/menu_desplegable.php" ?>
+<?php include "templates/menu_desplegable_control.php" ?>
 
 <!-- Foto principal -->
 <section >

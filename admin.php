@@ -23,7 +23,7 @@
 
 </header>
 
-<?php include "templates/menu_desplegable.php" ?>
+<?php include "templates/menu_desplegable_control.php" ?>
 
 <!-- Slide1 -->
 <section class="section-slide">

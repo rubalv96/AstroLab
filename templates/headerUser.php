@@ -56,10 +56,13 @@
                                         echo $_SESSION['username']; ?>
                                     </button></a>
                             <?php } ?>
-                            <a href="admin.php" ><button type="button" class="btn botonEnviar">
+                            <a href="../cerrarSesion.php" >
+
+                                <button type="button" class="btn botonEnviar">
                                     <?php
                                     echo "Cerrar sesión";
-                                    session_destroy(); ?>
+                                    //session_destroy();
+                                    ?>
                                 </button></a>
 
 

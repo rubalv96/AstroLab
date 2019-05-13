@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <aside class="sidebar trans-0-4">
     <!-- Button Hide sidebar -->
-    <button class="btn-hide-sidebar ti-close color0-hov trans-0-4  "></button>
+    <button id="btnCerrarMenu" class="btn-hide-sidebar ti-close color0-hov trans-0-4  "></button>
 
 
 
@@ -33,16 +33,16 @@
 
 
         <li class="t-center m-b-33">
-            <a  href="#myModal" class="txt-19" data-toggle="modal" data-target="#myModal">
+            <a  href="#myModal" class="txt19" data-toggle="modal" data-target="#myModal">
                 Contacto
             </a>
         </li>
         <li class="t-center m-b-33" >
             <!-- Button HTML (to Trigger Modal) -->
-            <a ><button type="button" class="btn botonEnviar" data-toggle="modal" data-target="#myModal2">
+            <a ><button id="#btnLogin" type="button" class="btn botonEnviar" data-toggle="modal" data-target="#myModal2">
                     Login
                 </button></a>
-            <a ><button type="button" id="login" class="btn botonEnviar" data-toggle="modal" data-target="#myModal3">
+            <a ><button onclick="esconder()" type="button" id="login" class="btn botonEnviar" data-toggle="modal" data-target="#myModal3">
                     Registro
                 </button></a>
 

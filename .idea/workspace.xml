@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a95a84-a2a5-4bbc-8f07-7fb0ac171622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cerrarSesion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu_desplegable_control.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directos.php" beforeDir="false" afterPath="$PROJECT_DIR$/directos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirandoalcielo.php" beforeDir="false" afterPath="$PROJECT_DIR$/mirandoalcielo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/procesaLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/procesaLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/headerUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/headerUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu_desplegable.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu_desplegable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu_desplegableUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu_desplegableUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/scripts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tierra.php" beforeDir="false" afterPath="$PROJECT_DIR$/tierra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vialactea.php" beforeDir="false" afterPath="$PROJECT_DIR$/vialactea.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,19 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/menu_desplegable.php">
+        <entry file="file://$PROJECT_DIR$/templates/scripts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="322">
+              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/menu_desplegableUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="339">
+              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -36,26 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vialactea.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="516" column="1" lean-forward="true" selection-start-line="516" selection-start-column="1" selection-end-line="516" selection-end-column="1" />
+            <state relative-caret-position="297">
+              <caret line="341" lean-forward="true" selection-start-line="341" selection-end-line="341" />
             </state>
           </provider>
         </entry>
@@ -63,44 +57,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/headerUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/header.php">
+        <entry file="file://$PROJECT_DIR$/cerrarSesion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="1965" column="9" lean-forward="true" selection-start-line="1965" selection-start-column="9" selection-end-line="1965" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/scripts.php">
+        <entry file="file://$PROJECT_DIR$/vialactea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="53" lean-forward="true" selection-start-line="52" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tierra.php">
+        <entry file="file://$PROJECT_DIR$/templates/menu_desplegable_control.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/procesaLogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="56" column="57" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restringido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,9 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>favico</find>
-      <find>favic</find>
-      <find>arrow</find>
       <find>button</find>
       <find>2 de julio</find>
       <find>p-l-45</find>
@@ -146,6 +155,9 @@
       <find>activo</find>
       <find>main_menu &gt; li</find>
       <find>acti</find>
+      <find>txt19</find>
+      <find>cerra</find>
+      <find>ImagenL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,27 +190,29 @@
         <option value="$PROJECT_DIR$/templates/backtotop.php" />
         <option value="$PROJECT_DIR$/templates/cambioclaseActivo.php" />
         <option value="$PROJECT_DIR$/perfil.php" />
-        <option value="$PROJECT_DIR$/user.php" />
-        <option value="$PROJECT_DIR$/directos.php" />
-        <option value="$PROJECT_DIR$/mirandoalcielo.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/restringidoAdmin.php" />
         <option value="$PROJECT_DIR$/sql/demo_usuarios.sql" />
         <option value="$PROJECT_DIR$/conectar.php" />
         <option value="$PROJECT_DIR$/annadeUsuario.php" />
         <option value="$PROJECT_DIR$/sql/demo_sugerencias.sql" />
         <option value="$PROJECT_DIR$/annadeSugerencia.php" />
-        <option value="$PROJECT_DIR$/admin.php" />
-        <option value="$PROJECT_DIR$/procesaLogin.php" />
-        <option value="$PROJECT_DIR$/templates/headerUser.php" />
         <option value="$PROJECT_DIR$/templates/header.php" />
-        <option value="$PROJECT_DIR$/templates/menu_desplegable.php" />
-        <option value="$PROJECT_DIR$/templates/menu_desplegableUser.php" />
-        <option value="$PROJECT_DIR$/vialactea.php" />
-        <option value="$PROJECT_DIR$/templates/scripts.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/tierra.php" />
+        <option value="$PROJECT_DIR$/mirandoalcielo.php" />
+        <option value="$PROJECT_DIR$/directos.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/menu_desplegable.php" />
+        <option value="$PROJECT_DIR$/templates/menu_desplegable_control.php" />
+        <option value="$PROJECT_DIR$/procesaLogin.php" />
+        <option value="$PROJECT_DIR$/templates/scripts.php" />
+        <option value="$PROJECT_DIR$/vialactea.php" />
+        <option value="$PROJECT_DIR$/templates/headerUser.php" />
+        <option value="$PROJECT_DIR$/cerrarSesion.php" />
+        <option value="$PROJECT_DIR$/templates/menu_desplegableUser.php" />
       </list>
     </option>
   </component>
@@ -314,7 +328,8 @@
       <workItem from="1557594869184" duration="1469000" />
       <workItem from="1557650516347" duration="2398000" />
       <workItem from="1557695581805" duration="2824000" />
-      <workItem from="1557733068098" duration="3605000" />
+      <workItem from="1557733068098" duration="4327000" />
+      <workItem from="1557748838482" duration="8457000" />
     </task>
     <task id="LOCAL-00001" summary="16. Mejora. Flechas para indicar que debes hacer scroll al cambiar de página.">
       <created>1557133272908</created>
@@ -379,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557736775190</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="25. (Mejora). Resaltar sección del menú en la que te encuentras.">
+      <created>1557737406399</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557737406399</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142673000" />
+    <option name="totallyTimeSpent" value="151852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +420,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.2193646" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.27760968" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,7 +527,8 @@
     <MESSAGE value="22. Login funcional con admin y usuario estándar sin BBDD." />
     <MESSAGE value="23. Login y registro. Sugerencias. Acceso a BBDD." />
     <MESSAGE value="24. Mejorado menú desplegable versión móvil para acceder a Contacto y Login/Registro." />
-    <option name="LAST_COMMIT_MESSAGE" value="24. Mejorado menú desplegable versión móvil para acceder a Contacto y Login/Registro." />
+    <MESSAGE value="25. (Mejora). Resaltar sección del menú en la que te encuentras." />
+    <option name="LAST_COMMIT_MESSAGE" value="25. (Mejora). Resaltar sección del menú en la que te encuentras." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/bg-event-04.jpg">
@@ -616,13 +639,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/cambioclaseActivo.php" />
-    <entry file="file://$PROJECT_DIR$/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1752">
-          <caret line="3724" column="4" selection-start-line="3724" selection-start-column="4" selection-end-line="3725" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultados.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -645,38 +661,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/perfil.php" />
-    <entry file="file://$PROJECT_DIR$/directos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirandoalcielo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="245" column="3" lean-forward="true" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restringido.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -701,31 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="130" column="39" selection-start-line="130" selection-start-column="39" selection-end-line="130" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/procesaLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/demo_sugerencias.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="2" selection-start-line="20" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conectar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -736,20 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/headerUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu_desplegableUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -757,52 +710,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vialactea.php">
+    <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu_desplegable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="53" lean-forward="true" selection-start-line="52" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="425">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tierra.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirandoalcielo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/util.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="3229" column="6" selection-start-line="3229" selection-start-column="1" selection-end-line="3229" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/themify/ie7/ie7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="210" column="1" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu_desplegable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="1965" column="9" lean-forward="true" selection-start-line="1965" selection-start-column="9" selection-end-line="1965" selection-end-column="9" />
+        <state relative-caret-position="484">
+          <caret line="739" column="1" selection-start-line="739" selection-start-column="1" selection-end-line="739" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="99" column="71" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conectar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restringido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu_desplegable_control.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vialactea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procesaLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="56" column="57" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="341" lean-forward="true" selection-start-line="341" selection-end-line="341" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cerrarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/headerUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu_desplegableUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -29,25 +29,31 @@ else{
 }*/
 require_once 'conectar.php';
 $sql = "SELECT username, password FROM usuarios ";
-foreach ($db->query($sql) as $fila) {
-    if($fila['username']==$_REQUEST['username'] && $fila['password']==$_REQUEST['password']){
+
+    foreach ($db->query($sql) as $fila) {
+        if($fila['username']==$_REQUEST['username'] && $fila['password']==$_REQUEST['password']){
 
 
-        if($_REQUEST['username']== "admin"){
-            session_start();
-            $_SESSION['username']=$_REQUEST['username'];
-            header("Location: admin.php");
+            if($_REQUEST['username']== "admin"){
+                session_start();
+                $_SESSION['username']=$_REQUEST['username'];
+                header("Location: admin.php");
+                return;
+            }
+            else {
+                session_start();
+                $_SESSION['username']=$_REQUEST['username'];
+                header("Location: user.php");
+                return;
+            }
+
         }
-        else{
-            session_start();
-            $_SESSION['username']=$_REQUEST['username'];
-            header("Location: user.php");
-        }
+
     }
-    else{
-        /*session_destroy();*/
-        $errorLogin="El usuario o la contraseña son incorrectos";
-        header("Location: index.php?errorLogin=$errorLogin");
-    }
-}
+
+
+//    session_destroy();
+    $errorLogin="El usuario o la contraseña son incorrectos";
+    header("Location: index.php?errorLogin=$errorLogin");
+
 
