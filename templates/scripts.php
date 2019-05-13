@@ -50,7 +50,7 @@
     <?php endif; ?>
 </script>
 
-<!--<script>
+<script>
 
     $(document).ready(function () {
         var current_location=window.location.href.split('/');
@@ -60,4 +60,4 @@
         $('.main_menu li a[href*="' + page + '"]').addClass("activo");
     })
 
-</script>-->
+</script>
