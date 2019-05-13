@@ -574,10 +574,10 @@ input[type="date" i] {
 .main_menu > li > a {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   color: white;
-  padding: 12px;
+  padding: 5px;
 }
 
 .header-fixed .main_menu > li > a {
@@ -1983,5 +1983,5 @@ tr:nth-child(even) {
 }
 
 .main_menu2>li>a{
-  padding: 22px !important;
+  padding: 16px !important;
 }

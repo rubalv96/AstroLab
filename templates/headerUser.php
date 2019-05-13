@@ -56,10 +56,15 @@
                                         echo $_SESSION['username']; ?>
                                     </button></a>
                             <?php } ?>
-
+                            <a href="admin.php" ><button type="button" class="btn botonEnviar">
+                                    <?php
+                                    echo "Cerrar sesión";
+                                    session_destroy(); ?>
+                                </button></a>
 
 
                         </li>
+
 
                     </ul>
                 </nav>
@@ -78,7 +83,7 @@
 <div class="modal" id="myModal">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form action="resultados.php" method="post">
+            <form action="annadeSugerencia.php" method="post">
 
                 <!-- Modal Header -->
                 <div class="modal-header fondoHeader">
@@ -92,15 +97,15 @@
                 <div class="modal-body ">
                     <div class="form-group">
                         <label for="inputName">Nombre</label>
-                        <input type="text" class="form-control" id="inputName" required>
+                        <input name="nombre" type="text" class="form-control" id="inputName" required>
                     </div>
                     <div class="form-group">
                         <label for="inputEmail">Correo electrónico</label>
-                        <input type="email" class="form-control" id="inputEmail" required>
+                        <input name="correo" type="email" class="form-control" id="inputEmail" required>
                     </div>
                     <div class="form-group">
                         <label for="inputMessage">Mensaje</label>
-                        <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                        <textarea name="mensaje" class="form-control" id="inputMessage" rows="5" required></textarea>
                     </div>
                 </div>
 

@@ -74,36 +74,19 @@
             </tr>
             </thead>
             <tbody id="myTable">
-            <tr>
-                <td>Raj</td>
-                <td>Girish</td>
-                <td>Parmar</td>
-            </tr>
-            <tr>
-                <td>Mohan</td>
-                <td>viraj</td>
-                <td>koli</td>
-            </tr>
-            <tr>
-                <td>Jainish</td>
-                <td>ratan</td>
-                <td>vyas</td>
-            </tr>
-            <tr>
-                <td>Tom</td>
-                <td>kim</td>
-                <td>zone</td>
-            </tr>
-            <tr>
-                <td>Rohan</td>
-                <td>Prithvi</td>
-                <td>koli</td>
-            </tr>
-            <tr>
-                <td>Vikram</td>
-                <td>Girish</td>
-                <td>vyas</td>
-            </tr>
+
+            <?php
+            require_once 'conectar.php';
+            $sql = "SELECT nombre, apellidos, correo, username, password FROM usuarios ";
+            foreach ($db->query($sql) as $fila) {
+                print "<tr>";
+                print "<td>" . $fila['nombre'] . "</td>";
+                print "<td>" . $fila['apellidos'] . "</td>";
+                print "<td>" . $fila['username'] . "</td>";
+                print "<td>" . $fila['correo'] . "</td>";
+            }
+            ?>
+
             </tbody>
         </table>
     </div>
@@ -128,36 +111,16 @@
             </tr>
             </thead>
             <tbody id="myTable2">
-            <tr>
-                <td>Raj</td>
-                <td>Girish</td>
-                <td >kkkk</td>
-            </tr>
-            <tr>
-                <td>Mohan</td>
-                <td>viraj</td>
-                <td>ghgh</td>
-            </tr>
-            <tr>
-                <td>Jainish</td>
-                <td>ratan</td>
-                <td>vyas</td>
-            </tr>
-            <tr>
-                <td>Tom</td>
-                <td>kim</td>
-                <td>zone</td>
-            </tr>
-            <tr>
-                <td>Rohan</td>
-                <td>Prithvi</td>
-                <td>koli</td>
-            </tr>
-            <tr>
-                <td>Vikram</td>
-                <td>Girish</td>
-                <td>vyas</td>
-            </tr>
+            <?php
+            require_once 'conectar.php';
+            $sql = "SELECT nombre, correo, mensaje FROM sugerencias ";
+            foreach ($db->query($sql) as $fila) {
+                print "<tr>";
+                print "<td>" . $fila['nombre'] . "</td>";
+                print "<td>" . $fila['correo'] . "</td>";
+                print "<td>" . $fila['mensaje'] . "</td>";
+            }
+            ?>
             </tbody>
         </table>
     </div>

@@ -39,13 +39,17 @@
                                     </a>
                                 </li>
 
-                                <li >
+                                <li>
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a ><button type="button" id="login" class="btn botonEnviar" data-toggle="modal" data-target="#myModal2">
                                             Login
                                         </button></a>
+                                    <a ><button type="button" id="login" class="btn botonEnviar" data-toggle="modal" data-target="#myModal3">
+                                            Registro
+                                        </button></a>
 
                                 </li>
+
 
 							</ul>
 						</nav>
@@ -64,7 +68,7 @@
         <div class="modal" id="myModal">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <form action="resultados.php" method="post">
+                    <form action="annadeSugerencia.php" method="post">
 
                         <!-- Modal Header -->
                         <div class="modal-header fondoHeader">
@@ -78,15 +82,15 @@
                         <div class="modal-body ">
                             <div class="form-group">
                                 <label for="inputName">Nombre</label>
-                                <input type="text" class="form-control" id="inputName" required>
+                                <input type="text" class="form-control" name="nombre" id="inputName" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail">Correo electrónico</label>
-                                <input type="email" class="form-control" id="inputEmail" required>
+                                <input type="email" class="form-control" id="inputEmail" name="correo" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputMessage">Mensaje</label>
-                                <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                                <textarea name="mensaje" class="form-control" id="inputMessage" rows="5" required></textarea>
                             </div>
                         </div>
 
@@ -142,5 +146,45 @@
             </div>
         </div>
 
+<!-- Modal de Login -->
+<div id="myModal3" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="avatar">
+                    <img src="images/avatar.png" alt="Avatar">
+                </div>
+                <h4 class="modal-title">Regístrate como usuario</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form action="./annadeUsuario.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="apellidos" placeholder="Apellidos" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="correo" placeholder="Correo electrónico" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Nombre de usuario" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn botonEnviar btn-lg btn-block login-btn">Registrar</button>
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
