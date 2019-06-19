@@ -10,6 +10,7 @@
 </head>
 <body class="animsition">
 
+
 <!-- Header -->
 <header>
     <?php if(!isset($_SESSION['username'])){
@@ -33,11 +34,11 @@
             <div class="item-slick1 item1-slick1" style="background-image: url(images/admin/principal.jpg);">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
-							Consulta los
+							Bienvenido
 						</span>
 
                     <h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-                        Mensajes
+                        <?php echo $_SESSION['username'];?>
                     </h2>
 
 
@@ -57,13 +58,24 @@
 
 <!-- Tabla de usuarios -->
 <section class="section-welcome bg1-pattern p-t-120 p-b-105" id="sec">
+<!--    <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(images/index/navega4.jpg);">-->
+<!--			<span class="tit4 p-l-15 p-r-15">-->
+<!--				Bienvenido-->
+<!--			</span>-->
+<!---->
+<!--        <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">-->
+<!--            --><?php
+//            echo $_SESSION['username'];
+//                ?>
+<!--        </h3>-->
+<!--    </div>-->
     <div class="container">
-        <h2>Usuarios del sistema</h2>
-        <p>Filtro de búsqueda</p>
-        <input id="myInput" type="text" placeholder="Buscar...">
+        <h2 class="txt1">Usuarios del sistema</h2>
+
+        <input id="myInput" type="text" placeholder="Filtro de búsqueda" class="m-t-15 txt5" style="width:400px; background-color: #F2C3EC; color:#4D4258; text-align:center;">
         <br><br>
 
-        <table>
+        <table class="table">
             <thead>
             <tr>
                 <th>Nombre</th>
@@ -77,6 +89,7 @@
 
             <?php
             require_once 'conectar.php';
+
             $sql = "SELECT nombre, apellidos, correo, username, password FROM usuarios ";
             foreach ($db->query($sql) as $fila) {
                 print "<tr>";
@@ -95,9 +108,8 @@
 <!-- Tabla de sugerencias -->
 <section class="section-welcome bg1-pattern p-t-120 p-b-105" id="sec">
     <div class="container">
-        <h2>Sugerencias enviadas por los usuarios</h2>
-        <p>Filtro de búsqueda</p>
-        <input id="myInput2" type="text" placeholder="Buscar...">
+        <h2 class="txt1">Sugerencias enviadas por los usuarios</h2>
+        <input id="myInput" type="text" placeholder="Filtro de búsqueda" class="m-t-15 txt5" style="width:400px; background-color: #F2C3EC; color:#4D4258; text-align:center;">
         <br><br>
 
         <table>
@@ -112,8 +124,8 @@
             </thead>
             <tbody id="myTable2">
             <?php
-            require_once 'conectar.php';
-            $sql = "SELECT nombre, correo, mensaje FROM sugerencias ";
+           require_once 'conectar.php';
+           $sql = "SELECT nombre, correo, mensaje FROM sugerencias ";
             foreach ($db->query($sql) as $fila) {
                 print "<tr>";
                 print "<td>" . $fila['nombre'] . "</td>";

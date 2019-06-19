@@ -16,7 +16,7 @@
 						<nav class="menu">
 							<ul class="main_menu main_menu2">
 								<li >
-									<a href="index.php">Home</a>
+									<a href="index.php">Inicio</a>
 								</li>
 
 								<li>
@@ -158,7 +158,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
-                <form action="./annadeUsuario.php" method="post">
+                <form action="../annadeUsuario.php" method="post">
                     <div class="form-group">
                         <input type="text" class="form-control" name="nombre" placeholder="Nombre" required="required">
                     </div>
@@ -168,6 +168,20 @@
                     <div class="form-group">
                         <input type="email" class="form-control" name="correo" placeholder="Correo electrónico" required="required">
                     </div>
+
+                    <div class="form-group text-center">
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input value="M" type="radio" class="form-check-input" name="sexo">Hombre
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input value="F" type="radio" class="form-check-input" name="sexo">Mujer
+                            </label>
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <input type="text" class="form-control" name="username" placeholder="Nombre de usuario" required="required">
                     </div>
@@ -175,13 +189,14 @@
                         <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">
                     </div>
 
+
                     <div class="form-group">
                         <button type="submit" class="btn botonEnviar btn-lg btn-block login-btn">Registrar</button>
                     </div>
 
 
                 </form>
-            </div>
+            </form>
 
         </div>
     </div>

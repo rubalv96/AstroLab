@@ -36,11 +36,11 @@
 				<div class="item-slick1 item1-slick1" style="background-image: url(images/slides/slide1.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
-							Descubre tu
+							Descubre los rincones de la
 						</span>
 
 						<h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-							Universo
+							Vía Láctea
 						</h2>
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
@@ -65,7 +65,7 @@
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="slideInUp">
 							<!-- Button1 -->
-							<a href="vialactea.php" class="btn1 flex-c-m size1 txt3 trans-0-4">
+							<a href="mirandoalcielo.php" class="btn1 flex-c-m size1 txt3 trans-0-4">
 								¡Explora!
 							</a>
 						</div>
@@ -78,17 +78,17 @@
 				<div class="item-slick1 item3-slick1" style="background-image: url(images/slides/slide3.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-							Sueña con las
+							Contenidos exclusivos para
 						</span>
 
 						<h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-							Estrellas
+							usuarios registrados
 						</h2>
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="rotateIn">
 							<!-- Button1 -->
-							<a href="vialactea.php" class="btn1 flex-c-m size1 txt3 trans-0-4">
-								¡Sueña!
+							<a data-toggle="modal" data-target="#myModal3" class="btn1 flex-c-m size1 txt3 trans-0-4">
+								¡Regístrate!
 							</a>
 						</div>
 					</div>
@@ -114,7 +114,7 @@
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Bienvenida
+							Bienvenido
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">
@@ -156,11 +156,11 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img class="imagenCielo" src="images/navega1.jpg" alt="IMG-INTRO"></a>
+								<a href="mirandoalcielo.php"><img class="imagenCielo" src="images/navega1.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<a href="vialactea.php"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									Vía Láctea
 								</h4></a>
 
@@ -170,7 +170,7 @@
 									Sistema Solar. ¿Te animas?
 								</p>
 
-								<a href="#" class="txt4">
+								<a href="vialactea.php" class="txt4">
 									¡Navega!
 									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 								</a>
@@ -182,11 +182,11 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img class="imagenCielo" src="images/sections/tierra.jpg" alt="IMG-INTRO"></a>
+								<a href="tierra.php"><img class="imagenCielo" src="images/sections/tierra.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<a href="tierra.php"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									La Tierra
 								</h4></a>
 
@@ -195,7 +195,7 @@
 									con las estaciones, el satélite lunar así como los famosos eclipses. ¿Quieres saber cómo se forman?
 								</p>
 
-								<a href="#" class="txt4">
+								<a href="tierra.php" class="txt4">
 									¡Navega!
 									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 								</a>
@@ -207,11 +207,11 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img class="imagenCielo" src="images/navega2.jpg" alt="IMG-INTRO"></a>
+								<a href="mirandoalcielo.php"><img class="imagenCielo" src="images/navega2.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<a href="mirandoalcielo.php"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									Mirando al cielo
 								</h4></a>
 
@@ -220,7 +220,7 @@
 									la oportunidad de saber algo más sobre ellos. ¿Quieres conocerlos?
 								</p>
 
-								<a href="#" class="txt4">
+								<a href="mirandoalcielo.php" class="txt4">
 									¡Navega!
 									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 								</a>

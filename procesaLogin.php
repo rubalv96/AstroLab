@@ -31,25 +31,25 @@ require_once 'conectar.php';
 $sql = "SELECT username, password FROM usuarios ";
 
     foreach ($db->query($sql) as $fila) {
-        if($fila['username']==$_REQUEST['username'] && $fila['password']==$_REQUEST['password']){
+    if($fila['username']==$_REQUEST['username'] && $fila['password']==$_REQUEST['password']){
 
 
-            if($_REQUEST['username']== "admin"){
-                session_start();
-                $_SESSION['username']=$_REQUEST['username'];
-                header("Location: admin.php");
-                return;
-            }
-            else {
-                session_start();
-                $_SESSION['username']=$_REQUEST['username'];
-                header("Location: user.php");
-                return;
-            }
-
+        if($_REQUEST['username']== "admin"){
+            session_start();
+            $_SESSION['username']=$_REQUEST['username'];
+            header("Location: admin.php");
+            return;
+        }
+        else {
+            session_start();
+            $_SESSION['username']=$_REQUEST['username'];
+            header("Location: user.php");
+            return;
         }
 
     }
+
+}
 
 
 //    session_destroy();

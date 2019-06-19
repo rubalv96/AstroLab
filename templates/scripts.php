@@ -63,13 +63,4 @@
 
 </script>
 
-<script>
 
-    //$(document).ready(function () {
-    //
-    //    function cerrarSesion(){
-    //        <?php //session_destroy(); ?>
-    //    }
-    //})
-
-</script>

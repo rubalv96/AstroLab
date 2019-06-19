@@ -16,7 +16,7 @@
 
 
         <li class="t-center m-b-13">
-            <a href="index.php" class="txt19">Home</a>
+            <a href="index.php" class="txt19">Inicio</a>
         </li>
 
         <li class="t-center m-b-13">
@@ -42,7 +42,7 @@
             <a ><button id="#btnLogin" type="button" class="btn botonEnviar" data-toggle="modal" data-target="#myModal2">
                     Login
                 </button></a>
-            <a ><button onclick="esconder()" type="button" id="login" class="btn botonEnviar" data-toggle="modal" data-target="#myModal3">
+            <a ><button type="button" id="login" class="btn botonEnviar" data-toggle="modal" data-target="#myModal3">
                     Registro
                 </button></a>
 

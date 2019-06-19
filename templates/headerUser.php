@@ -15,7 +15,7 @@
                 <nav class="menu">
                     <ul class="main_menu">
                         <li >
-                            <a href="index.php">Home</a>
+                            <a href="index.php">Inicio</a>
                         </li>
 
                         <li>

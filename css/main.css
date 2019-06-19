@@ -1974,9 +1974,11 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+  border: 1px #dddddd;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  padding:12px;
 }
 
 tr:nth-child(even) {

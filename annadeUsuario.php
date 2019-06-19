@@ -9,6 +9,7 @@ $apellidos = $_REQUEST['apellidos'];
 $correo = $_REQUEST['correo'];
 $username = $_REQUEST['username'];
 $password = $_REQUEST['password'];
+$sexo=$_REQUEST['sexo'];
 
 
 $validado = (!empty($nombre) && !empty($apellidos)  && !empty($correo) && !empty($username) && !empty($password));
@@ -31,11 +32,11 @@ if ($error_fichero != false) {
 
 // debería haber un fichero php con funciones para BBDD
 
-$sql_insert = "INSERT INTO `usuarios` (nombre, apellidos, correo, username, password) " . "
-			      VALUES (?, ?, ?, ?, ?)";
+$sql_insert = "INSERT INTO `usuarios` (nombre, apellidos, correo, username, password, sexo) " . "
+			      VALUES (?, ?, ?, ?, ?, ?)";
 try {
     $sentencia = $db->prepare($sql_insert);
-    $sentencia->execute(array($nombre, $apellidos, $correo, $username, $password));
+    $sentencia->execute(array($nombre, $apellidos, $correo, $username, $password, $sexo));
 }catch(PDOException $error) {
     die("Error a insertar " . $error->getMessage()) or die("Error al redirigir a formulario con error $error->getMessage()");
 }

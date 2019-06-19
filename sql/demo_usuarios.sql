@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `correo` varchar(255)  NOT NULL,
   `username` varchar(50)  NOT NULL,
   `password` varchar(255) NOT NULL,
+  `sexo` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
@@ -21,8 +22,8 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 -- ----------------------------
 
 INSERT INTO `usuarios` VALUES
-('1', 'admin', 'admin', 'admin@admin', 'admin', 'admin'),
-('2', 'pepe', 'pepe', 'pepe@pepe', 'pepe', 'pepe') ;
+('1', 'admin', 'admin', 'admin@admin', 'admin', 'admin', 'M'),
+('2', 'pepe', 'pepe', 'pepe@pepe', 'pepe', 'pepe', 'M') ;
 
 
 
